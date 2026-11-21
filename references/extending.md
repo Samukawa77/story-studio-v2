@@ -1,6 +1,6 @@
 # 接入新的赛道或写作风格
 
-当前已接入历史叙事、玉玲人物故事写法，以及三种已有配图画风。民间故事是可扩展赛道，不是已存在的专用 DNA。不要建立空模块、虚假 corpus 或未验证的能力声明。
+当前已接入历史叙事、玉玲人物故事写法及[配图画风](../modules/history-image/GUIDE.md#风格选择)。民间故事是可扩展赛道，不是已存在的专用 DNA。不要建立空模块、虚假 corpus 或未验证的能力声明。
 
 ## 当前用户要求民间故事时
 
@@ -22,7 +22,7 @@
 | --- | --- |
 | modules/history-writing/ | 历史写作规则、57篇语料及检索/计数工具 |
 | modules/characterstory-writing/ | 人物写作 DNA 与原目录实际语料，原稿不作事实证据 |
-| modules/history-image/ | 分镜与三种画风、封面参考图、Coli转录及分配检查 |
+| modules/history-image/ | 分镜、画风规则、正文与封面参考图、Coli转录及分配检查 |
 | modules/render-history-video/ | 语义与节奏核验、推拉运动、剪映导出与显式请求下的本地渲染 |
 
 内置的是使用资源，不包含原目录的 Git 历史、缓存或原技能发现入口。`GUIDE.md` 所在目录就是模块的脚本与资源基准。原技能目录删除后，内置规则与语料仍可读取。外部依赖按 [初始化流程](setup.md) 选择性配置：Python3.10+、媒体库、ffmpeg/ffprobe、本地Coli及草稿所需pyJianYingDraft。生图复用当前可用工具，可选imagegen指导；不保存密钥或重复实现客户端。

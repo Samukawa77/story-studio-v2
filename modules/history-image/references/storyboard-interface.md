@@ -9,7 +9,7 @@
 | 信息 | 建议字段 | 用途 |
 | --- | --- | --- |
 | 输出方式 | mode | storyboard、prompt 或 generate；明确拆镜时用 storyboard，已有分镜未明确生图时用 prompt |
-| 画风 | style_id | historical-realism（历史写实风）、historical-comic（厚涂历史漫画风）或 monochrome-narrative（黑白叙事风）；缺失且无当前项目确认记录时先询问，无自动默认 |
+| 画风 | style_id | 使用[风格选择表](../GUIDE.md#风格选择)中的已确认 ID，含剪纸叙事风 `papercut-narrative`。缺失且无当前项目确认记录时先询问，无自动默认 |
 | 模型偏好 | model | 默认 GPT Image 2；执行时核验实际接口名称 |
 | 画幅 | aspect_ratio | 默认 9:16，可覆盖 |
 | 完整文稿 | manuscript | 提供主线时空、人物和事件上下文；storyboard 模式按全文拆镜，其他模式仅作为背景 |

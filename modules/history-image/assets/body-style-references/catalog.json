@@ -2,7 +2,7 @@
   "schema_version": 1,
   "path_base": "catalog_directory",
   "asset_role": "body_style_reference",
-  "provenance": "User-provided existing creative outputs; original private filesystem paths are not distributed.",
+  "provenance": "User-provided existing creative outputs and in-project papercut style studies. Distributed paths are relative to this catalog.",
   "historical_evidence": false,
   "subject_identity_verified": false,
   "generation_model_verified": false,
@@ -140,6 +140,99 @@
             "跨时期保持绘画材质",
             "面部精细与环境粗放的关系",
             "灰冷海面与局部暖光"
+          ]
+        }
+      ]
+    },
+    "papercut-narrative": {
+      "status": "visual_references_available",
+      "images": [
+        {
+          "id": "PC01",
+          "path": "papercut-narrative/PC01-accounting-room.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "a4741203873b4c755fcbc3f520c1de56b2e35e7ce89a6742a9fcb1b6db6666ba",
+          "pixel_sha256": "dc9776222e45ffe0236b08ed50761979feb536d047de2db6c4c55c9df7108aed",
+          "scene_note": "剪纸风格试图：晚清账房中一坐一立的人物指向同一账页，朱砂窗格、深色衣袍和浅色纸面分层。",
+          "selection_tags": [
+            "late-qing",
+            "interior",
+            "two-person",
+            "object-detail"
+          ],
+          "style_attributes": [
+            "连续剪影和局部镂空",
+            "哑光彩纸纤维",
+            "薄纸叠层与窄接触阴影",
+            "有限纸色和清晰手势"
+          ]
+        },
+        {
+          "id": "PC02",
+          "path": "papercut-narrative/PC02-tang-woman.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "1ee9304287e58c0c902193af9919ed6e475b33e28e8a893fcb00b147632385c7",
+          "pixel_sha256": "18ba22418cd8b5d82aa529cd55f92202dca530eb55311f03acaf11d1357aeb14",
+          "scene_note": "唐代风格庭院中，独自侧身探向花枝的女性，高髻、长裙和披帛轮廓清晰。",
+          "selection_tags": [
+            "tang",
+            "female",
+            "single-person",
+            "full-body",
+            "courtyard"
+          ],
+          "style_attributes": [
+            "侧脸、手势和长衣褶的剪形",
+            "暖纸浅底与灰青背景",
+            "主体留白与局部点色"
+          ]
+        },
+        {
+          "id": "PC03",
+          "path": "papercut-narrative/PC03-ming-cityscape.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "35bf1ba862af3c4e71c8b81a662519c9fb33df82e4b9768eb059bb809a0ce18e",
+          "pixel_sha256": "6efcb9b7fd6ede9bac546b63f7e4706b647147a94d4bf5aaef107346fb6eb5e6",
+          "scene_note": "明代风格城池的无人远景，前景芦苇与河面，中景城墙和城楼，远处屋脊与山丘。",
+          "selection_tags": [
+            "ming",
+            "outdoor",
+            "no-person",
+            "wide",
+            "architecture"
+          ],
+          "style_attributes": [
+            "建筑与植物的大块连续剪形",
+            "冷青灰绿与远近色阶",
+            "跨空间的薄纸遮挡"
+          ]
+        },
+        {
+          "id": "PC04",
+          "path": "papercut-narrative/PC04-republic-dock-workers.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "565d80e9efe1c6134f28b3589509f01ea5db9234c5f054bf3f1091cbc321a10d",
+          "pixel_sha256": "b23399965bc395b3bbbb47ae6f36bc7dba58d98979a7155a628b1165f4ee161b",
+          "scene_note": "民国时期风格的码头群像，六名工人分层交接货包、捆扎、背运、推车和搬箱。",
+          "selection_tags": [
+            "republic-era",
+            "group",
+            "outdoor",
+            "work",
+            "dock"
+          ],
+          "style_attributes": [
+            "群像动作与局部镂空",
+            "跳板的斜向构图",
+            "纸层遮挡与人物轮廓分离"
           ]
         }
       ]
