@@ -2,7 +2,7 @@
   "schema_version": 1,
   "path_base": "catalog_directory",
   "asset_role": "body_style_reference",
-  "provenance": "User-provided existing creative outputs and in-project historical comic and papercut style studies. Distributed paths are relative to this catalog.",
+  "provenance": "User-provided existing creative outputs and in-project historical comic, papercut, and low-light horror style studies. Distributed paths are relative to this catalog.",
   "historical_evidence": false,
   "subject_identity_verified": false,
   "generation_model_verified": false,
@@ -405,6 +405,99 @@
             "mean_max_pair": 0.655345,
             "p99_max_pair": 3
           }
+        }
+      ]
+    },
+    "low-light-horror": {
+      "status": "visual_references_available",
+      "images": [
+        {
+          "id": "LL01",
+          "path": "low-light-horror/LL01-rainy-ferry.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "b7e0209728890b2dfc0be9bf734cfc7f6cb1413ec3ad8a5f2d21041d6fb346e6",
+          "pixel_sha256": "2cdb604057bd4c5bb8c005b38a72df8fcfe64aeddfe2c2413bafff67f8c43773",
+          "scene_note": "雨后暮色里，女子扶栏俯视水面。水中可见与空岸对应的额外倒影，湿木和雨衣由局部灯光塑形。",
+          "selection_tags": [
+            "outdoor",
+            "female",
+            "dusk",
+            "reflection",
+            "rain"
+          ],
+          "style_attributes": [
+            "低饱和冷蓝暮色",
+            "暖灯照亮湿木",
+            "水面反射与自然布料质感"
+          ]
+        },
+        {
+          "id": "LL02",
+          "path": "low-light-horror/LL02-ming-inn.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "edfdfa2c4924c9ce6191b6c22c6740bee3b3840a3dbf5364787d92d456729547",
+          "pixel_sha256": "f4f6b880a2aca8e85c0c78796470e28df8c59084b49b98929199fe22f05e5fc7",
+          "scene_note": "古代客栈内，伙计手拿碗和布，抬头望向楼梯；旅客扶住桌沿侧听。桌上烛光与冷色院落相接。",
+          "selection_tags": [
+            "historical",
+            "interior",
+            "two-person",
+            "candlelight",
+            "reaction"
+          ],
+          "style_attributes": [
+            "脸手保留中间调",
+            "蜡烛照亮桌面和陶器",
+            "粗布和暗部空间可读"
+          ]
+        },
+        {
+          "id": "LL03",
+          "path": "low-light-horror/LL03-daylight-waiting-room.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "f1c969e99eaa85c71fbc4a1d4754bb022ae4e6501bb8f1f60842e6f26a9c9a2c",
+          "pixel_sha256": "55fec7332917367f21b3db35c6230984fb15a03110e076d2df1af2c4ccab210c",
+          "scene_note": "阴天的无人候船室，敞开的门外是江面，几枚湿鞋印跨过门槛，在屋内地面中断。",
+          "selection_tags": [
+            "daylight",
+            "interior",
+            "no-people",
+            "environmental-clue",
+            "overcast"
+          ],
+          "style_attributes": [
+            "自然散射光",
+            "灰绿木窗和灰褐水泥",
+            "鞋印与前景留空"
+          ]
+        },
+        {
+          "id": "LL04",
+          "path": "low-light-horror/LL04-blackout-stairwell.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "6efec37848253a3830573b56998ee33c71bcc74df0a84b570e7036086360eef2",
+          "pixel_sha256": "1e87af75c1ea5bc4ffdf2a051c1491111adbcea8ab5e9dd72a36eebb15522a1c",
+          "scene_note": "砖混居民楼三人错落站在门口和楼梯旁，分别举手电、扶栏止步、探身侧看。转角空着。",
+          "selection_tags": [
+            "modern-period",
+            "night",
+            "group",
+            "flashlight",
+            "reaction"
+          ],
+          "style_attributes": [
+            "手电光斑与冷灰蓝暗部",
+            "水泥和砖墙的真实质感",
+            "不同动作与人物层次"
+          ]
         }
       ]
     }

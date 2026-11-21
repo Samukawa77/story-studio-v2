@@ -1,6 +1,6 @@
 ---
 name: story-studio
-description: 历史与真实人物故事的中文内容制作，按需独立执行写作、豆包配音、分镜与配图、剪映草稿，支持自动初始化依赖和接续已有项目。用户提到story-studio、故事工坊，或要求这些题材的文案配音配图剪映一条龙时使用。现有写作风格为历史叙事和玉玲2711人物故事风；民间故事等赛道可扩展。
+description: 历史与真实人物故事的中文内容制作，按需执行写作、豆包配音、分镜与配图、剪映草稿，支持灵异故事的独立分镜与配图。用户提到story-studio、故事工坊，或提出这些题材的对应制作需求时使用。支持依赖初始化和接续已有项目。内置历史叙事和玉玲2711人物故事写作风格。
 ---
 
 # Story Studio · 故事工坊
@@ -81,7 +81,7 @@ description: 历史与真实人物故事的中文内容制作，按需独立执�
 
 “只配图”且无法判断层级时询问要分镜提示词还是实际图片；等待期间可分析全文与时代。提示词、预期图片文件名和模型字段均不构成生图授权。
 
-配图画风使用独立的 `style_id`：历史写实 `historical-realism`、厚涂历史漫画 `historical-comic`、黑白叙事 `monochrome-narrative`、剪纸叙事 `papercut-narrative`。本项目未选择时询问，等待期间可做无画风草稿；不能按写作风格、赛道或旧文件夹名称擅自选择。
+配图画风使用独立的 `style_id`，可选历史写实 `historical-realism`、厚涂历史漫画 `historical-comic`、黑白叙事 `monochrome-narrative`、剪纸叙事 `papercut-narrative`、彩色暗光怪谈 `low-light-horror`。别名和执行规则见[风格选择表](modules/history-image/GUIDE.md#风格选择)。本项目未选择时询问，等待期间可做无画风草稿；不能按写作风格、赛道或旧文件夹名称擅自选择。
 
 实际生图前读[正文画风参考图库](modules/history-image/references/style-reference-library.md)，按已确认画风选同组参考并实际查看；工具支持时传入图片，固定本项目主基准，首张对照核验后再继续。记录参考ID、用途与实际传入状态。各画风的参考图及可用状态以图库索引为准。人物与场景的史实依据取自本镜资料，封面按模块的封面规则处理。
 
