@@ -13,20 +13,22 @@
 | papercut-narrative | 4张剪纸叙事试图 | 按人物、环境或动作选择对应样图，逐镜确定时代外观 |
 | historical-realism | 暂无已分类核验的正文参考图 | 使用[历史写实规则](../styles/historical-realism.md)；允许用户提供匹配参考，不借用漫画或黑白图充数，不因此阻断可行的文字或生图工作 |
 
-图库包含使用者提供的既有创作素材和选定的剪纸试图，均按实际视觉表现选样。它们用于观察画风。人物身份、服饰和器物依据本镜资料确定。核验范围为视觉选样与文件完整性，指定模型下的跨镜头复现需实测。
+图库包含使用者提供的既有创作素材，以及按风格规则生成的厚涂和剪纸样图。它们用于观察画风。人物身份、服饰和器物依据本镜资料确定。核验范围为视觉选样与文件完整性，指定模型下的跨镜头复现需实测。
 
 ## 厚涂历史漫画：HC01—HC06
 
 | ID与文件 | 实际画面与适用观察 | 使用时保留的边界 |
 | --- | --- | --- |
-| [HC01 暗室人物](../assets/body-style-references/historical-comic/HC01-dim-interior.png) | 帐内侧面人物、门外亮部；脸、衣料、木材与背景的破碎笔触 | 用于低照度、层次与材质，不把所有新图压暗或固定成军帐 |
-| [HC02 户外人物](../assets/body-style-references/historical-comic/HC02-outdoor-figure.png) | 持弓人物、群像与云层；块面塑形和粗细笔触关系 | 不照搬人物面孔、战乱、破衣或兵器；动作服从本镜 |
-| [HC03 明亮室内](../assets/body-style-references/historical-comic/HC03-daylight-study.png) | 女性整理竹简；明亮暖灰层次、细腻脸手与较粗放建筑背景 | 静态生活同样使用厚涂，不固定女性容貌、汉代室内或竹简 |
-| [HC04 物件近景](../assets/body-style-references/historical-comic/HC04-object-detail.png) | 手、竹简、木案与侧光；关键物件的可读材质 | 只参考材质和局部明暗，不抄图案、可读文字或器物年代 |
-| [HC05 大场面](../assets/body-style-references/historical-comic/HC05-wide-landscape.png) | 俯视军营、山谷与群像；远近层次和暖亮部/灰冷山体关系 | 不把大军、山谷、夕阳当作所有镜头的必需元素 |
-| [HC06 近现代户外](../assets/body-style-references/historical-comic/HC06-modern-outdoor.png) | 军装人物在船舷旁；海面、云层、大衣的厚涂材质 | 用于跨时期延续绘画语言，人物、制服、船只与时代重新确定 |
+| [HC01 暗室人物](../assets/body-style-references/historical-comic/HC01-dim-interior.png) | 帐内两人交接简牍，年长者向画面左下看，暗处脸部保留柔和中间调。 | 参考帐布、木案的破碎笔触和暗部色层。人物朝向与室内光源按本镜设计。 |
+| [HC02 户外人物](../assets/body-style-references/historical-comic/HC02-outdoor-figure.png) | 歇息者低头接水，同伴整理水囊和行装，土墙和冷灰云层组织背景。 | 参考散射光下的哑光肤色、衣料和土地笔触。群像的视线和动作按各人的任务设计。 |
+| [HC03 明亮室内](../assets/body-style-references/historical-comic/HC03-daylight-study.png) | 女子一手按住竹简，一手从架上抽出另一卷，侧看书架，嘴角微扬。 | 参考脸手的暖灰色层和木架的厚涂笔触。人物容貌、表情和器物随本镜设定。 |
+| [HC04 物件近景](../assets/body-style-references/historical-comic/HC04-object-detail.png) | 双手在木案上系竹简，一手按住简片，另一手捏住束绳。 | 参考竹木、布料与局部明暗，也可用于仅需材质参考的镜头。器物样式按本镜年代确定。 |
+| [HC05 大场面](../assets/body-style-references/historical-comic/HC05-wide-landscape.png) | 从山坡俯看山谷营地，前景人物以背影入画，搬运、帐篷和道路沿山谷展开。 | 参考环境尺度、远近冷暖层次和背影轮廓。地形与人群活动随本镜安排。 |
+| [HC06 近现代户外](../assets/body-style-references/historical-comic/HC06-modern-outdoor.png) | 船舷旁两人合力交接旧箱，右侧男子抬眼看向船工，水面保留冷灰亮部。 | 参考旧大衣、水面的厚涂材质和脸部低反光表现。手势和视线服从本镜的交接动作。 |
 
-组内稳定特征：人物近真实比例；关键脸手较细；衣料、木石、云层有明显绘画笔触；赭褐与暖灰亮部有层次，环境允许灰冷色。场景明暗和情绪按本镜选择，不将整套风格缩减为棕黄色滤镜、悲剧或战争。
+组内稳定特征为接近真实的人物比例、较细的脸手笔触、衣料与环境的破碎笔触，以及分层的赭褐、暖灰与灰冷色。
+
+给工具传图时逐张注明具体材质和颜色用途，例如“HC02 仅参考衣料、土地与云层笔触”。把本镜的姿势、视线、表情和脸部受光写在主体描述里。若主参考的露脸姿态或强光反复带偏画面，优先选无可辨识人脸的 HC04（材质细节）或 HC05（环境色层）接替，并记录实际使用的 ID 和用途。人物身份参考按[人物分期流程](person-photo-reference.md)使用。
 
 ## 黑白叙事：MN01—MN06
 

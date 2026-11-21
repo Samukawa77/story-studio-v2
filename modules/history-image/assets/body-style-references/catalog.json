@@ -2,7 +2,7 @@
   "schema_version": 1,
   "path_base": "catalog_directory",
   "asset_role": "body_style_reference",
-  "provenance": "User-provided existing creative outputs and in-project papercut style studies. Distributed paths are relative to this catalog.",
+  "provenance": "User-provided existing creative outputs and in-project historical comic and papercut style studies. Distributed paths are relative to this catalog.",
   "historical_evidence": false,
   "subject_identity_verified": false,
   "generation_model_verified": false,
@@ -23,18 +23,19 @@
           "width": 941,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "c034d0a3837d635dc5a60854a97baf07e19443b9bfd4ac82c21fcfefb4aa1c30",
-          "pixel_sha256": "2099086ebdafb4a0fc4af9b6242d0837d46c796104b699864b040dc1f0b0b8c5",
-          "scene_note": "帐内人物与门外亮部，侧面面部、布料与木材的破碎笔触。",
+          "sha256": "09620c2c44751c0247a4f0537719ad079a5f36fa1bfad9fbceebd94e7635a650",
+          "pixel_sha256": "2ff399d13b62ea45636c05e614c91a4c84dc8f7c515472bb5b27f920214f758e",
+          "scene_note": "帐内两人交接简牍，年长者向画面左下看。帐门、布幔与木案组织明暗。",
           "selection_tags": [
             "dim-interior",
-            "male",
+            "two-person",
+            "handoff",
             "layered-space"
           ],
           "style_attributes": [
-            "暗部保留层次",
-            "局部暖光",
-            "人物与环境厚涂笔触"
+            "帐布与木案的破碎笔触",
+            "柔和脸部中间调",
+            "视线与手势集中于简牍"
           ]
         },
         {
@@ -43,19 +44,19 @@
           "width": 941,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "a11d13b21892677fb3df8080cfc1ebee236755a2ccda5b523d60dfcb9a812438",
-          "pixel_sha256": "f9a23eb4332d863dd4b19cb39ee9b269de7cbe1f80b593b217ff0976bd9c4174",
-          "scene_note": "持弓人物与户外群像，衣料块面与云层、土石的手绘肌理。",
+          "sha256": "03e9226dce95aad60ea3becd88cb52e13aedce21e349f006f73e5c1c14ad20c8",
+          "pixel_sha256": "4f1023238a6a36fc3a428ff0af32d78bfbc7df27dbde994c54968b238bb2d57f",
+          "scene_note": "村道旁歇息的人物低头接水，同伴整理水囊和行装，土墙与云层保留厚涂肌理。",
           "selection_tags": [
             "outdoor",
-            "male",
             "group",
-            "action"
+            "handoff",
+            "overcast"
           ],
           "style_attributes": [
-            "明确主人物",
-            "云层与衣料笔触",
-            "赭褐配色"
+            "散射光下的哑光肤色",
+            "接水姿势与群像分工",
+            "赭褐土墙与冷灰天空"
           ]
         },
         {
@@ -64,9 +65,9 @@
           "width": 941,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "0e9a3e7c03db326280ea48d8bbebd2748f262d2c60335aea025fd975954319d4",
-          "pixel_sha256": "b3e5bffe13fa08b0480f81ec1e6cc68358b840e464d165dfc7604e2d1d5f9ac4",
-          "scene_note": "女性整理竹简的明亮室内，细腻面部与较粗放的建筑背景。",
+          "sha256": "8e48379760031efa7ac260f1b88133af0316599267df827e1bb3fea465e1220d",
+          "pixel_sha256": "6c13b772b6e15cd0c7915143e53eb3a40a587ad798f24af78b9ff3aef0bcdb01",
+          "scene_note": "日景书室里，一名女子左手按住竹简，右手从架上抽出另一卷，侧看书架，嘴角微扬。",
           "selection_tags": [
             "interior",
             "female",
@@ -74,9 +75,9 @@
             "quiet-action"
           ],
           "style_attributes": [
-            "女性面部与手部可读",
-            "明亮暖灰层次",
-            "静态动作同样有叙事"
+            "手与竹简的接触",
+            "暖灰肤色与克制笑意",
+            "衣料和木架的厚涂层次"
           ]
         },
         {
@@ -85,19 +86,20 @@
           "width": 941,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "459cd70e1df077f1b4ac2acb899f422ab8e2cbf4551758a557abf1c525c0d347",
-          "pixel_sha256": "1a1e260f6d498cde5e6c63335c25f154f31d57c9f8948dee13e8dfb2f7222e23",
-          "scene_note": "手部、竹简与木案的近景，侧光强调物件材质与空间层次。",
+          "sha256": "8b9c14a6f198db921f89e1f1b1e6335a29d1635450816831b0960cd96e30e736",
+          "pixel_sha256": "1e8cfe58e359c0feb5bae68047b3cd66b9e860f16b6facd084ae34af0f0bb3b2",
+          "scene_note": "双手在木案上系竹简，按住简片和捏住束绳的动作清楚，画面以器物和手部为主。",
           "selection_tags": [
             "detail",
             "hand",
             "objects",
-            "daylight"
+            "daylight",
+            "no-face"
           ],
           "style_attributes": [
-            "关键物件清楚",
-            "木竹与衣料材质",
-            "背景笔触有层次"
+            "手指对束绳的施力",
+            "竹木与衣料分层",
+            "木案上的可见颜料笔触"
           ]
         },
         {
@@ -106,40 +108,42 @@
           "width": 941,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "9da9e69564bac3515d91d53b16fea34e4f021d6eca231a79911c2601d536c8e7",
-          "pixel_sha256": "fae12730363714307273cad7a2e78a766dc2a41ecaefa9dee33a335490f543c3",
-          "scene_note": "俯视军营与山谷远景，斜向层次、群像尺度与天光组织。",
+          "sha256": "9ef3bfec3e38bc627a8673de8aaf516da9a4c88e394ef5ae129776c86c4ce020",
+          "pixel_sha256": "499ab9f1381ef27e1e2bc793ff54543a762bd4f57aa21610cf8c25fd79310960",
+          "scene_note": "从山坡俯瞰营地，前景人物以背影入画，搬运、帐篷和道路沿山谷展开。",
           "selection_tags": [
             "wide",
             "outdoor",
             "group",
-            "landscape"
+            "landscape",
+            "no-face"
           ],
           "style_attributes": [
-            "远近层次",
-            "大场面明确主次",
-            "暖亮部与灰冷山体"
+            "背影剪影与环境尺度",
+            "远近冷暖分层",
+            "山云与前景衣料的破碎笔触"
           ]
         },
         {
           "id": "HC06",
           "path": "historical-comic/HC06-modern-outdoor.png",
-          "width": 941,
+          "width": 940,
           "height": 1672,
           "mode": "RGB",
-          "sha256": "562a6b32463f7ef34e0833c0ea881f6189828bc36441a47eedc05880cd7acc34",
-          "pixel_sha256": "fee6618a388383ab65eb0bd95a3a4ca02208d9dc4544d36c2baf60f34a6e997b",
-          "scene_note": "近现代军装人物在船舷旁，海面、云层与大衣的厚涂材质。",
+          "sha256": "1d562400ed214884bcd685488c3c74a9b04917fe838c0d47cb299ff5346c13cb",
+          "pixel_sha256": "71381d73bf166d4c9b5cd3183327029193980eed3e5c892a07b36343bc6306b1",
+          "scene_note": "近现代船舷旁，两人合力交接旧箱；右侧男子抬眼看向船工，水面保留冷灰亮部。",
           "selection_tags": [
             "modern-period",
             "outdoor",
-            "male",
+            "two-person",
+            "handoff",
             "water"
           ],
           "style_attributes": [
-            "跨时期保持绘画材质",
-            "面部精细与环境粗放的关系",
-            "灰冷海面与局部暖光"
+            "交接时的承重手势",
+            "抬眼交流与哑光肤色",
+            "旧大衣和河港环境的厚涂材质"
           ]
         }
       ]
